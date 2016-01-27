@@ -1,0 +1,258 @@
+#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  /* Adds shadow to the bottom of the bar */
+  -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+  /* Adds the transparent background */
+  background-color: rgba(1, 1, 1, 0.8);
+  color: rgba(1, 1, 1, 0.8);
+  z-index: 10;
+}
+
+#navigation a {
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  color: gold;
+}
+
+.big-thing {
+  background-image: url("header.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.big-thing .container {
+  padding: 20px;
+  position: relative;
+  top:100px;
+  background-color: #393c3d;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+}
+
+.big-thing h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.big-thing p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.page-2 {
+  background-color: #DDDCDE;
+  height: 50wh;
+}
+
+.page-2 h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.page-2 a {
+  color: #00b0ff;
+}
+
+.intro {
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+    
+}
+
+.intro h2 {
+  font-size: 40px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  color:rgba(0, 0, 0, 0.8);
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.intro p {
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+#product {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  height: 100vh;
+}
+
+#makers {
+  color: #C7C7C7;
+  font-size: 11px;
+  font-weight: bold;
+  height: 100vh;
+}
+
+#action {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  height: 100vh;
+}
+
+
+.box-1 {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(grey, white);
+}
+
+.box-2 {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(grey, white);
+}
+
+.box-3 {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(grey, white);
+}
+
+.svg-wrapper-action {
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  width: 320px;  
+}
+
+.svg-wrapper-product {
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  width: 320px;
+}
+
+.svg-wrapper-makers {
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  width: 320px;
+}
+
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -674;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #1CFF7B;
+  border-bottom: 8px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text {
+  font-size: 28px;
+  font-family: Arial;
+  font-weight: normal;
+  color: #5a5a5a;
+  line-height: 32px;
+  top: -85px;
+  right: -5px;
+  position: relative;
+
+}
+.svg-wrapper-action:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 1;
+  stroke-dasharray: 760;
+}
+
+.svg-wrapper-makers:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 1;
+  stroke-dasharray: 760;
+}
+
+.svg-wrapper-product:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 1;
+  stroke-dasharray: 760;
+}
+
+.box-1 .thumbnail {
+  display: none;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.box-1 .rolling-text {
+  font-size: 14px;
+  display: none;
+  color: black;
+}
+
+.box-1 h1 {
+  display: none;
+  padding-top: 20px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  color:rgba(238, 233, 233, 0.7);
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.box-2 .thumbnail {
+  display: none;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.box-2 .rolling-text {
+  font-size: 14px;
+  display: none;
+  color: black;
+}
+
+.box-2 h1 {
+  display: none;
+  padding-top: 20px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  color:rgba(238, 233, 233, 0.7);
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.box-3 .thumbnail {
+  display: none;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.box-3 .rolling-text {
+  font-size: 14px;
+  display: none;
+  color: black;
+}
+
+.box-3 h1 {
+  display: none;
+  padding-top: 20px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  color:rgba(238, 233, 233, 0.7);
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.3);
+}
